@@ -25,20 +25,22 @@ body {
         color: navy;
         text-align: center;
     }
-
-    .form item {
+    
+    .form-item {
         display: grid;
         align-items: center;
     }
-    column1 {
-        grid-template-columns: 3fr 1fr;
-        margin: 0.5rem;
+
+    .column1 {
+      grid-template-columns: 3fr 1fr;
+      margin: 0.5rem 0;
     }
+
     .column2 {
-        grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
     }
 
-
+    
     form {
         width: 650px;
         margin: 0 auto;
@@ -50,7 +52,6 @@ body {
     }
     
     
-
     fieldset {
         display: grid;
         grid-gap: .5rem;
@@ -76,7 +77,7 @@ body {
 
     input, select, textarea {
         padding: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     input[type="checkbox"] {
@@ -108,3 +109,4 @@ body {
         border-top: 1px solid #ccc;
     }
 
+    
