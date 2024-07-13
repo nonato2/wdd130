@@ -21,18 +21,20 @@ h2{
   font-size: 1.5rem;
   text-shadow: 3px 3px 5px #777;
 }
-
 .herodiv{
   margin: 10px auto;
   position: absolute;
 }
-
-
 .hero img {
   display: block;
   width: 100%;
   height:auto;
   object-fit: cover;
+  }
+
+  aside  {
+    position: absolute;
+    left: 120px;
   }
 
   .stats {
@@ -45,6 +47,11 @@ h2{
     box-shadow: 0 0 30px #111;
     opacity: 0.9;
   }
+  aside  {
+    width: 20em;
+    text-align: center;
+  }
+  
 
 
 nav {
