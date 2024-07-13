@@ -1,15 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
- *{
-  margin: 0;
-  padding: 0;
+ header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
  }
 
-header, .grid, footer {
-  max-width: 840px;
-  margin: 0 auto
+ .logo img {
+   margin: 0 0.25rem 0 1rem;
+   width: 64px;
+   height: auto;
 }
+
+h1 {
+font-size: 2rem;
+font-family: Roboto,Poppins, serif;
+}
+
+nav {
+  text-align: right;
+}
+
+.navigation {
+  display: flex;
+list-style: none;
+}
+
+.navigation li {
+flex: 1 1 100%;
+}
+
+.navigation a {
+  display: block;
+  color: #0e3a92;
+  padding: 20px;
+  text-decoration: var(--nav-background-color);
+}
+
+.navigation a:hover {
+  color: brown;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
 main {
   max-width: 800px;
   margin: 2rem auto;
@@ -20,6 +58,7 @@ h2{
   text-align: center;
   font-size: 1.5rem;
   text-shadow: 3px 3px 5px #777;
+  position: absolute;
 }
 .herodiv{
   margin: 10px auto;
