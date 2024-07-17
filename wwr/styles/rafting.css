@@ -3,12 +3,16 @@
 
  header {
   margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 120px fr 2fr;
+  display: flex;
+  
   align-items: center;
   border-bottom: 1px solid #ccc;
-  max-width: 1000px;
- }
+  
+  padding: 60px;
+    background-color: #b6ebe2;
+  }
+  
+
 
  .logo img {
    margin: 0 0.25rem 0 1rem;
@@ -60,16 +64,24 @@ h2{
   text-shadow: 3px 3px 5px #777;
   position: absolute;
 }
-.herodiv{
-  margin: 10px auto;
-  position: absolute;
+
+
+.herobackground {
+position: absolute;
+z-index: -1;
+left: 50px;
 }
-.hero img {
-  display: block;
-  width: 100%;
-  height:auto;
-  object-fit: cover;
-  }
+
+.herobox {
+  background-color: #89dc989d;
+display: flex;
+
+justify-content:  center;
+gap: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
 
   aside  {
     position: absolute;
@@ -94,7 +106,7 @@ h2{
 
 
 nav {
-  background-color: rgb(157, 178, 195);
+  
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -103,25 +115,22 @@ nav {
 
 
 body {
+  
     font-size: 16px;
     font-family: var(--paragraph-font);
     max-width: 850px;
-    padding: 20px;
+    margin: 0px;
+    
 }
+
 
 hi,h2,h3,h4,h5,h6 {
   font-family: var(--heading-font);
   color: var(--Primary-color);
 }
 
-header {
-  padding: 60px;
-  background-color: #b6ebe2;
-}
 
-p {
-  padding: 0%;
-}  
+
  
   :root {
     --Primary-color:#98838f;
@@ -138,7 +147,7 @@ p {
   ---nav-hover-background-color:var(--secondary-color);
   }
 nav {
-  background-color: #98CE00;
+  
   font-size:  1.2rem;
   display: flex;
 }
