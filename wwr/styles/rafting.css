@@ -2,22 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
  header {
-  margin: 1rem auto;
+  
   display: flex;
   
   align-items: center;
   border-bottom: 1px solid #ccc;
   
-  padding: 60px;
+  padding: 10px;
     background-color: #b6ebe2;
   }
   
 
 
- .logo img {
+ .logo {
    margin: 0 0.25rem 0 1rem;
-   width: 64px;
-   height: auto;
+   width: 100px;
+   
 }
 
 h1 {
@@ -29,6 +29,7 @@ font-family: Roboto,Poppins, serif;
 .navigation {
   display: flex;
 list-style: none;
+
 }
 
 .navigation li {
@@ -50,27 +51,48 @@ flex: 1 1 100%;
 
 
 main {
-  max-width: 800px;
-  margin: 2rem auto;
+  
+  
   font-family: Roboto,Poppins, serif;
 }
 
 h2{
+  margin-top: 50px;
   text-align: center;
   font-size: 1.5rem;
   text-shadow: 3px 3px 5px #777;
-  position: absolute;
+  
 }
 
 
 .herobackground {
+  width: 100%;
 position: absolute;
 z-index: -1;
-left: 50px;
+
 }
 
+.hero h1 {
+  text-align: center;
+
+  color: white
+}
+
+.History {
+  
+  margin-top: 20px;
+  display: flex;
+  gap: 20px
+
+}
+.HIstory_header {
+text-align: center;
+}
+
+
 .herobox {
-  background-color: #89dc989d;
+  margin: 20px;
+  background-color: #89dc9849;
 display: flex;
 
 justify-content:  center;
@@ -79,26 +101,16 @@ padding-top: 20px;
 padding-bottom: 20px;
 }
 
+.Gallery {
 
-  aside  {
-    position: absolute;
-    left: 820px;
-  }
+  display: flex;
+  gap: 20px
+}
 
-  .stats {
-    position: absolute;
-    top: 25px;
-    right: 15px;
-    background: radial-gradient(#eee, #4567aa);
-    border: 1px solid #000;
-    padding: 0.65rem;
-    box-shadow: 0 0 30px #111;
-    opacity: 0.9;
-  }
-  aside  {
-    width: 20em;
-    text-align: center;
-  }
+.Gallery img {
+  width: 100%;
+}
+ 
   
 
 
@@ -116,13 +128,13 @@ body {
   
     font-size: 16px;
     font-family: var(--paragraph-font);
-    max-width: 850px;
+    
     margin: 0px;
     
 }
 
 
-hi,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: var(--heading-font);
   color: var(--Primary-color);
 }
@@ -157,11 +169,10 @@ nav a:hover {
   background-color: #16E0BD;
   
 }
+footer {
 
-
-
-
-
+background-color: #b6ebe2;
+}
 
 
 
