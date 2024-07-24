@@ -57,13 +57,18 @@ main {
 }
 
 h2{
-  margin-top: 50px;
+  margin-left: 1%;
   text-align: center;
   font-size: 1.5rem;
   text-shadow: 3px 3px 5px #777;
-  
-}
+} 
 
+form {
+  margin-left: 1%;
+}
+.map {
+  margin-left: 10px;
+}
 
 .herobackground {
   width: 100%;
@@ -154,7 +159,7 @@ h1,h2,h3,h4,h5,h6 {
   --nav-background-color:var(--accent1-color);
   --nav-link-color:var(--Primary-color);
   --nav-hover-link-color:var(--accent2-color);
-  ---nav-hover-background-color:var(--secondary-color);
+  --nav-hover-background-color:var(--secondary-color);
   }
 
 
